@@ -16,6 +16,7 @@ Starling Usage:
 ```haxe
 var placeHolderBitmapData: BitmapData = Decoder.decode("LKO2?V%2Tw=w]~RBVZRi};RPxuwH", 400, 200);
 var image:Image = new Image(Texture.fromBitmapData(placeHolderBitmapData));
-addChild(image);```
+addChild(image);
+```
 
 Enjoy!
