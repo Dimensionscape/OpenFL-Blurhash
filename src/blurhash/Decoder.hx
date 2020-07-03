@@ -9,7 +9,7 @@ import blurhash.Utils;
 class Decoder 
 {
 
-	private static var _blurhash: String;
+		private static var _blurhash: String;
 		private static var _width: Float;
 		private static var _height: Float;
 		private static var _punch: Float;
