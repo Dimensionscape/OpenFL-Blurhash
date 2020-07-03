@@ -55,7 +55,7 @@ class Decoder
 
 			var colors = new Array<Array<Float>>();
 			var colorsLength:Int = cast numX * numY;
-			for (i in 0...colorsLength) colors.push(0);
+			for (i in 0...colorsLength) colors.push([0]);
 			for(i in 0...colors.length){
 				if (i == 0) {
 					var value:Float = Base83.decode83(_blurhash.substring(2, 6));
