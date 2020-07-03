@@ -20,3 +20,5 @@ addChild(image);
 ```
 
 Enjoy!
+
+(Currently only works for Neko and HTML5. Cpp in progress.)
